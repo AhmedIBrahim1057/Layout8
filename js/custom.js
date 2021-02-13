@@ -83,7 +83,7 @@ function runMatter() {
   for (var i = 0; i < 20; i += 1) {
     let x = Common.random(0, render.options.width);
     let y = Common.random(0, render.options.height);
-    let s = Common.random() > 0.6 ? Common.random(10, 40) : Common.random(4, 30);
+    let s = Common.random() > 0.6 ? Common.random(20, 80) : Common.random(8, 60);
 
     let poligonNumber = Common.random(1, 2);
     var body = Bodies.polygon(
@@ -92,7 +92,7 @@ function runMatter() {
       poligonNumber,
       s,
       {
-        mass: 1,
+        mass: .6,
         friction: 0,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
@@ -116,8 +116,8 @@ function runMatter() {
       Common.random(1, 2),
       s,
       {
-        mass: 1,
-        friction: 0.6,
+        mass: .6,
+        friction: 0,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
         render: {
@@ -140,7 +140,7 @@ function runMatter() {
       Common.random(1, 2),
       s,
       {
-        mass: .5,
+        mass: 1.5,
         friction: 0.6,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
@@ -164,7 +164,7 @@ function runMatter() {
       Common.random(1, 2),
       s,
       {
-        mass: 1,
+        mass: .1,
         friction: 0.6,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
@@ -188,7 +188,7 @@ function runMatter() {
       Common.random(1, 2),
       s,
       {
-        mass: 1,
+        mass: .1,
         friction: 0.6,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
@@ -213,7 +213,7 @@ function runMatter() {
       Common.random(1, 2),
       s,
       {
-        mass: .5,
+        mass: 1.5,
         friction: 0.6,
         frictionAir: 0.02,
         angle: Math.round(Math.random() * 360),
