@@ -101,9 +101,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-05.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-10.png',
+                xScale: .5,
+                yScale: .5
             }
         }
       },
@@ -125,9 +125,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-04.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-10.png',
+                xScale: .5,
+                yScale: .5
             }
         }
       },
@@ -149,9 +149,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-09.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-12.png',
+                xScale: 2,
+                yScale: 2
             }
         }
       },
@@ -173,9 +173,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-07.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-11.png',
+                xScale: .5,
+                yScale: .5
             }
         }
       },
@@ -197,9 +197,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-06.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-11.png',
+                xScale: .5,
+                yScale: .5
             }
         }
       },
@@ -222,9 +222,9 @@ function runMatter() {
           strokeStyle: `#DDDDDD`,
           lineWidth: 0,
           sprite: {
-                texture: './img/pattern-nbe-08.png',
-                xScale: 1,
-                yScale: 1
+                texture: './img/pattern-nbe-12.png',
+                xScale: 2,
+                yScale: 2
             }
         }
       },
