@@ -150,8 +150,8 @@ function runMatter() {
           lineWidth: 0,
           sprite: {
                 texture: './img/pattern-nbe-12.png',
-                xScale: 2,
-                yScale: 2
+                xScale: 1,
+                yScale: 1
             }
         }
       },
@@ -223,8 +223,8 @@ function runMatter() {
           lineWidth: 0,
           sprite: {
                 texture: './img/pattern-nbe-12.png',
-                xScale: 2,
-                yScale: 2
+                xScale: 1,
+                yScale: 1
             }
         }
       },
