@@ -83,7 +83,7 @@ function runMatter() {
   for (var i = 0; i < 20; i += 1) {
     let x = Common.random(0, render.options.width);
     let y = Common.random(0, render.options.height);
-    let s = Common.random() > 0.6 ? Common.random(15, 50) : Common.random(9, 40);
+    let s = Common.random() > 0.6 ? Common.random(10, 40) : Common.random(4, 30);
 
     let poligonNumber = Common.random(1, 2);
     var body = Bodies.polygon(
